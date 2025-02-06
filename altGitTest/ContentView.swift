@@ -12,11 +12,12 @@ struct ContentView: View {
         VStack {
             Image(systemName: "ear")
                 .imageScale(.large)
-                .foregroundStyle(.black)
+                .foregroundStyle(.white)
             Text("Hello world!")
         }
+        .foregroundStyle(.red)
         .padding()
-        .background(.red.opacity(0.2))
+        .background(.blue.opacity(0.2))
         .clipShape(RoundedRectangle(cornerRadius: 15))
     }
 }
